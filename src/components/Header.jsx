@@ -47,7 +47,7 @@ const Header = () => {
         <div className="flex items-center">
           <a
             href="#"
-            className="pr-6 border-r-2 border-r-[#F2F2F2] border-opacity-30 font-medium text-"
+            className="pr-6 border-r-2 border-r-[#F2F2F2] border-opacity-30 font-medium text-xl"
           >
             Login
           </a>
