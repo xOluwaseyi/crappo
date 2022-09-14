@@ -62,7 +62,7 @@ const CalculateRate = () => {
             return (
               <div
                 key={card.id}
-                onMouseEnter={() => {
+                onClick={() => {
                   setActive(card.id);
                 }}
                 className={`h-[380px] w-[320px] flex flex-col justify-evenly items-center p-5 rounded-3xl mb-10 xl:mb-0 ${
