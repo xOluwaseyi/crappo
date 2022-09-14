@@ -15,7 +15,7 @@ const Hero = () => {
             data-aos="fade-down"
             data-aos-delay="50"
             data-aos-duration="2000"
-            className="w-[330px] lg:w-[360px] flex justify-around items-center bg-[#ffffff1a] p-1 rounded-full"
+            className="w-[345px] lg:w-[360px] flex justify-around items-center bg-[#ffffff1a] p-1 rounded-full"
           >
             <p
               data-aos="zoom-in"
@@ -30,7 +30,7 @@ const Hero = () => {
           <h1
             data-aos="fade-up"
             data-aos-duration="3000"
-            className="font-semibold ml-5 text-3xl lg:text-6xl py-8 leading-normal"
+            className="font-semibold ml-5 text-3xl lg:text-6xl py-5 leading-normal"
           >
             Fastest & secure platform to invest in crypto
           </h1>

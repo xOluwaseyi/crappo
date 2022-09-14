@@ -11,7 +11,7 @@ import youtube from "../assets/youtube.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0D0D2B]  text-white lg:pt-10">
+    <footer className="bg-[#0D0D2B]  text-white pt-10">
       <div className="w-[92%] mx-auto ">
         <div className="flex flex-col text-center lg:text-left lg:flex-row items-center lg:items-start justify-between">
           <div className="flex items-center ">

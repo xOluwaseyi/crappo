@@ -35,7 +35,7 @@ const CalculateRate = () => {
           data-aos="zoom-in"
           data-aos-delay="50"
           data-aos-duration="2000"
-          className="drop-shadow-2xl bg-white w-11/12 md:w-8/12 mx-auto p-9 text-black rounded-b-3xl"
+          className="drop-shadow-2xl bg-white w-11/12 lg:w-8/12 mx-auto p-9 text-black rounded-b-3xl"
         >
           <h1 className="font-bold text-[#3671E9]">
             ESTIMATED 24 HOUR REVENUE:
