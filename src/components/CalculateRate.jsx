@@ -8,18 +8,21 @@ const miningCard = [
   {
     id: 0,
     title: "Bitcoin",
+    sup: "BTC",
     image: Bitcoin,
     desc: "Digital currency in which a record of transactions is maintained.",
   },
   {
     id: 1,
     title: "Ethereum",
+    sup: "ETH",
     image: Etheruem,
     desc: "Blockchain technology to create and run decentralized digital applications.",
   },
   {
     id: 2,
     title: "Litecoin",
+    sup: "LTC",
     image: Litecoin,
     desc: "Cryptocurrency that enables instant payments to anyone in the world.",
   },
@@ -72,7 +75,10 @@ const CalculateRate = () => {
                 }`}
               >
                 <img src={card.image} alt="" />
-                <h1 className="font-bold text-2xl">{card.title}</h1>
+                <h1 className="font-bold text-2xl">
+                  {card.title}{" "}
+                  <sup className="text-slate-400"> {card.sup} </sup>{" "}
+                </h1>
                 <p className="text-center">{card.desc}</p>
                 {card.id == active ? (
                   <Button styles="flex items-center justify-around font-medium">
