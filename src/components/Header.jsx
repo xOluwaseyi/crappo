@@ -47,7 +47,7 @@ const Header = () => {
         <div className="flex items-center">
           <a
             href="#"
-            className="pr-6 border-r-2 border-r-[#F2F2F2] border-opacity-30 font-bold text-xl"
+            className="pr-6 border-r-2 border-r-[#F2F2F2] border-opacity-30 font-medium text-"
           >
             Login
           </a>
@@ -81,7 +81,7 @@ const Header = () => {
           <div className="flex items-center">
             <a
               href="#"
-              className="pr-6 border-r-2 border-r-[#F2F2F2] border-opacity-30 font-bold text-2xl"
+              className="pr-6 border-r-2 border-r-[#F2F2F2] border-opacity-30 font-medium text-2xl"
             >
               Login
             </a>
