@@ -10,12 +10,12 @@ const Hero = () => {
         style={{ backgroundImage: `url(${TransparentBg})` }}
         className="flex flex-col lg:flex-row justify-between items-center pb-14"
       >
-        <div className="lg:w-[50%]">
+        <div className=" lg:w-[50%]">
           <div
             data-aos="fade-down"
             data-aos-delay="50"
             data-aos-duration="2000"
-            className=" w-[350px] flex justify-around items-center bg-[#ffffff1a] p-1 rounded-full"
+            className="w-[330px] lg:w-[360px] flex justify-around items-center bg-[#ffffff1a] p-1 rounded-full"
           >
             <p
               data-aos="zoom-in"
@@ -30,19 +30,19 @@ const Hero = () => {
           <h1
             data-aos="fade-up"
             data-aos-duration="3000"
-            className="font-semibold text-4xl lg:text-6xl py-8 leading-normal"
+            className="font-semibold ml-5 text-3xl lg:text-6xl py-8 leading-normal"
           >
             Fastest & secure platform to invest in crypto
           </h1>
           <p
             data-aos="fade-up"
             data-aos-duration="3000"
-            className="pb-8 text-[#E0E0E0]"
+            className="pb-8 ml-5 text-[#E0E0E0]"
           >
-            Buy and sell cryptocurrencies, trusted by 10M wallets <br /> with
-            over $30 billion in transactions.
+            Buy and sell cryptocurrencies, trusted by 10M wallets with over $30
+            billion in transactions.
           </p>
-          <Button styles="flex items-center justify-around font-bold">
+          <Button styles=" ml-5 flex items-center justify-around font-bold">
             Try for FREE
             <span
               data-aos="fade-right"

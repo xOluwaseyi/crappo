@@ -44,23 +44,29 @@ const Footer = () => {
             <h1 className="font-semibold text-lg md:text-2xl lg:text-3xl xl:text-4xl text-center lg:text-left leading-snug mb-10">
               We accept following payment systems:
             </h1>
-            <div className="flex mx-auto w-[90%] md:w-[70%] lg:w-[100%] items-center justify-between ">
-              <div className="bg-[#E0E0E0] px-7 py-2 grid place-items-center rounded-lg bg-opacity-5 ">
-                <img src={Visa} alt="" />
-              </div>
-              <div className="bg-[#E0E0E0] px-7 py-2 grid place-items-center rounded-lg bg-opacity-5 ">
-                <img src={Mastercard} alt="" />
-              </div>
-              <div className="bg-[#E0E0E0] px-7 py-2 grid place-items-center rounded-lg bg-opacity-5 ">
-                <img src={Bitcoin} alt="" />
-              </div>
+
+            <div className="flex mx-auto md:w-[70%] lg:w-[100%] items-center justify-between ">
+              {[
+                { type: Visa, id: 0 },
+                { type: Mastercard, id: 1 },
+                { type: Bitcoin, id: 2 },
+              ].map((type) => {
+                return (
+                  <div
+                    key={type.id}
+                    className="bg-[#E0E0E0] h-[60px] px-7 py-2 grid place-items-center rounded-lg bg-opacity-5 "
+                  >
+                    <img src={type.type} alt="" />
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
         {/* acknowledgment */}
         <div className="flex justify-between flex-col items-center md:flex-row md:py-10">
           <p className="mb-10 md:my-0 font-medium">
-            ©2021 CRAPPO. All rights reserved
+            ©2022 CRAPPO. All rights reserved
           </p>
           <div className="flex w-[300px] justify-between pb-16 md:my-0">
             <img src={facebook} className="w-[10%] " alt="" />
